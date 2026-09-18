@@ -1,0 +1,4 @@
+node_modules/
+.next/
+.wolf/
+.env.local

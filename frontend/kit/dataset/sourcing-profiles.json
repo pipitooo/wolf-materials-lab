@@ -1,0 +1,1539 @@
+{
+  "meta": {
+    "generated": "2026-09-18",
+    "synthetic": true,
+    "note": "ALL values are fake. No real supplier quotes, freight rates, payrolls or ratings. Transport rules use synthetic rate tables; reliability/trust/capacity are invented; distance is real great-circle geometry only."
+  },
+  "profiles": [
+    {
+      "iso": "AT",
+      "supplierId": "sup-orbit",
+      "brand": "Würth",
+      "transport": {
+        "mode": "road",
+        "distanceKm": 892,
+        "transitDays": 3,
+        "costPerUnitEUR": 0.89,
+        "fuelSurchargePerUnitEUR": 0.11
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0,
+        "dutyPct": 0,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 500,
+        "expectedStorageDays": 5
+      },
+      "time": {
+        "productionLeadTimeDays": 2,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 0
+      },
+      "supply": {
+        "productionCapacityPerMonth": 3000,
+        "availableQuantity": 1800
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 95,
+        "historicalFulfillmentPercent": 96,
+        "defectRatePercent": 1.7,
+        "cancellationRatePercent": 2.3,
+        "numberOfHistoricalOrders": 118,
+        "reliabilityScore": 96
+      },
+      "trust": {
+        "supplierRating": 4.5,
+        "numberOfReviews": 189,
+        "verifiedBuyerPercent": 89,
+        "communityTrustScore": 89
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "DE",
+      "supplierId": "sup-helio",
+      "brand": "Helio",
+      "transport": {
+        "mode": "road",
+        "distanceKm": 776,
+        "transitDays": 3,
+        "costPerUnitEUR": 0.78,
+        "fuelSurchargePerUnitEUR": 0.09
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0,
+        "dutyPct": 0,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 420,
+        "expectedStorageDays": 5
+      },
+      "time": {
+        "productionLeadTimeDays": 2,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 0
+      },
+      "supply": {
+        "productionCapacityPerMonth": 8000,
+        "availableQuantity": 5000
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 94,
+        "historicalFulfillmentPercent": 96,
+        "defectRatePercent": 2,
+        "cancellationRatePercent": 2.8,
+        "numberOfHistoricalOrders": 310,
+        "reliabilityScore": 96
+      },
+      "trust": {
+        "supplierRating": 4.6,
+        "numberOfReviews": 496,
+        "verifiedBuyerPercent": 88,
+        "communityTrustScore": 91
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "SE",
+      "supplierId": "sup-vanta",
+      "brand": "Vanta",
+      "transport": {
+        "mode": "rail",
+        "distanceKm": 1890,
+        "transitDays": 4,
+        "costPerUnitEUR": 2.65,
+        "fuelSurchargePerUnitEUR": 0.32
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0,
+        "dutyPct": 0,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 520,
+        "expectedStorageDays": 6
+      },
+      "time": {
+        "productionLeadTimeDays": 2,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 0
+      },
+      "supply": {
+        "productionCapacityPerMonth": 3500,
+        "availableQuantity": 2500
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 95,
+        "historicalFulfillmentPercent": 96,
+        "defectRatePercent": 1.6,
+        "cancellationRatePercent": 2.2,
+        "numberOfHistoricalOrders": 104,
+        "reliabilityScore": 96
+      },
+      "trust": {
+        "supplierRating": 4.5,
+        "numberOfReviews": 166,
+        "verifiedBuyerPercent": 91,
+        "communityTrustScore": 90
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "FR",
+      "supplierId": "sup-aster",
+      "brand": "Aster",
+      "transport": {
+        "mode": "domestic",
+        "distanceKm": 0,
+        "transitDays": 0,
+        "costPerUnitEUR": 0,
+        "fuelSurchargePerUnitEUR": 0
+      },
+      "logistics": {
+        "feePerUnitEUR": 0,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0,
+        "dutyPct": 0,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 300,
+        "expectedStorageDays": 4
+      },
+      "time": {
+        "productionLeadTimeDays": 1,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 0
+      },
+      "supply": {
+        "productionCapacityPerMonth": 5000,
+        "availableQuantity": 3000
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 91,
+        "historicalFulfillmentPercent": 92,
+        "defectRatePercent": 3,
+        "cancellationRatePercent": 3.5,
+        "numberOfHistoricalOrders": 239,
+        "reliabilityScore": 93
+      },
+      "trust": {
+        "supplierRating": 4.8,
+        "numberOfReviews": 382,
+        "verifiedBuyerPercent": 94,
+        "communityTrustScore": 95
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "high",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "IT",
+      "supplierId": "sup-velora",
+      "brand": "Velora",
+      "transport": {
+        "mode": "road",
+        "distanceKm": 902,
+        "transitDays": 3,
+        "costPerUnitEUR": 0.9,
+        "fuelSurchargePerUnitEUR": 0.11
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0,
+        "dutyPct": 0,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 500,
+        "expectedStorageDays": 5
+      },
+      "time": {
+        "productionLeadTimeDays": 2,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 0
+      },
+      "supply": {
+        "productionCapacityPerMonth": 6000,
+        "availableQuantity": 4000
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 93,
+        "historicalFulfillmentPercent": 94,
+        "defectRatePercent": 2.2,
+        "cancellationRatePercent": 3.2,
+        "numberOfHistoricalOrders": 198,
+        "reliabilityScore": 95
+      },
+      "trust": {
+        "supplierRating": 4.3,
+        "numberOfReviews": 317,
+        "verifiedBuyerPercent": 82,
+        "communityTrustScore": 85
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "ES",
+      "supplierId": "sup-lumen",
+      "brand": "Lumen",
+      "transport": {
+        "mode": "road",
+        "distanceKm": 846,
+        "transitDays": 3,
+        "costPerUnitEUR": 0.85,
+        "fuelSurchargePerUnitEUR": 0.1
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0,
+        "dutyPct": 0,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 500,
+        "expectedStorageDays": 5
+      },
+      "time": {
+        "productionLeadTimeDays": 3,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 0
+      },
+      "supply": {
+        "productionCapacityPerMonth": 4000,
+        "availableQuantity": 2000
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 92,
+        "historicalFulfillmentPercent": 93,
+        "defectRatePercent": 2.4,
+        "cancellationRatePercent": 3,
+        "numberOfHistoricalOrders": 155,
+        "reliabilityScore": 94
+      },
+      "trust": {
+        "supplierRating": 4.3,
+        "numberOfReviews": 248,
+        "verifiedBuyerPercent": 80,
+        "communityTrustScore": 85
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "PT",
+      "supplierId": "sup-novex",
+      "brand": "Novex",
+      "transport": {
+        "mode": "road",
+        "distanceKm": 1147,
+        "transitDays": 4,
+        "costPerUnitEUR": 1.15,
+        "fuelSurchargePerUnitEUR": 0.14
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0,
+        "dutyPct": 0,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 500,
+        "expectedStorageDays": 5
+      },
+      "time": {
+        "productionLeadTimeDays": 3,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 0
+      },
+      "supply": {
+        "productionCapacityPerMonth": 4000,
+        "availableQuantity": 2000
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 91,
+        "historicalFulfillmentPercent": 92,
+        "defectRatePercent": 2.6,
+        "cancellationRatePercent": 3.4,
+        "numberOfHistoricalOrders": 121,
+        "reliabilityScore": 93
+      },
+      "trust": {
+        "supplierRating": 4.2,
+        "numberOfReviews": 194,
+        "verifiedBuyerPercent": 77,
+        "communityTrustScore": 83
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "CH",
+      "supplierId": "sup-arcus",
+      "brand": "Arcus",
+      "transport": {
+        "mode": "road",
+        "distanceKm": 443,
+        "transitDays": 2,
+        "costPerUnitEUR": 0.44,
+        "fuelSurchargePerUnitEUR": 0.05
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0.25,
+        "dutyPct": 0.025,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 500,
+        "expectedStorageDays": 5
+      },
+      "time": {
+        "productionLeadTimeDays": 2,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 2
+      },
+      "supply": {
+        "productionCapacityPerMonth": 2500,
+        "availableQuantity": 800
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 95,
+        "historicalFulfillmentPercent": 96,
+        "defectRatePercent": 1.8,
+        "cancellationRatePercent": 2.5,
+        "numberOfHistoricalOrders": 172,
+        "reliabilityScore": 96
+      },
+      "trust": {
+        "supplierRating": 4.5,
+        "numberOfReviews": 275,
+        "verifiedBuyerPercent": 90,
+        "communityTrustScore": 90
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "PL",
+      "supplierId": "sup-cobalt",
+      "brand": "Cobalt",
+      "transport": {
+        "mode": "road",
+        "distanceKm": 1360,
+        "transitDays": 4,
+        "costPerUnitEUR": 1.36,
+        "fuelSurchargePerUnitEUR": 0.16
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0,
+        "dutyPct": 0,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 500,
+        "expectedStorageDays": 5
+      },
+      "time": {
+        "productionLeadTimeDays": 3,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 0
+      },
+      "supply": {
+        "productionCapacityPerMonth": 4500,
+        "availableQuantity": 3000
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 91,
+        "historicalFulfillmentPercent": 93,
+        "defectRatePercent": 2.6,
+        "cancellationRatePercent": 3.4,
+        "numberOfHistoricalOrders": 164,
+        "reliabilityScore": 94
+      },
+      "trust": {
+        "supplierRating": 4.2,
+        "numberOfReviews": 262,
+        "verifiedBuyerPercent": 79,
+        "communityTrustScore": 83
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "CZ",
+      "supplierId": "sup-solis",
+      "brand": "Solis",
+      "transport": {
+        "mode": "road",
+        "distanceKm": 1032,
+        "transitDays": 3,
+        "costPerUnitEUR": 1.03,
+        "fuelSurchargePerUnitEUR": 0.12
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0,
+        "dutyPct": 0,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 500,
+        "expectedStorageDays": 5
+      },
+      "time": {
+        "productionLeadTimeDays": 3,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 0
+      },
+      "supply": {
+        "productionCapacityPerMonth": 3500,
+        "availableQuantity": 2200
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 92,
+        "historicalFulfillmentPercent": 94,
+        "defectRatePercent": 2.3,
+        "cancellationRatePercent": 3.1,
+        "numberOfHistoricalOrders": 137,
+        "reliabilityScore": 94
+      },
+      "trust": {
+        "supplierRating": 4.3,
+        "numberOfReviews": 219,
+        "verifiedBuyerPercent": 83,
+        "communityTrustScore": 85
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "SK",
+      "supplierId": "sup-orbit",
+      "brand": "Würth",
+      "transport": {
+        "mode": "road",
+        "distanceKm": 1299,
+        "transitDays": 4,
+        "costPerUnitEUR": 1.3,
+        "fuelSurchargePerUnitEUR": 0.16
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0,
+        "dutyPct": 0,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 500,
+        "expectedStorageDays": 5
+      },
+      "time": {
+        "productionLeadTimeDays": 3,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 0
+      },
+      "supply": {
+        "productionCapacityPerMonth": 3500,
+        "availableQuantity": 2000
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 91,
+        "historicalFulfillmentPercent": 93,
+        "defectRatePercent": 2.7,
+        "cancellationRatePercent": 3.5,
+        "numberOfHistoricalOrders": 98,
+        "reliabilityScore": 94
+      },
+      "trust": {
+        "supplierRating": 4.2,
+        "numberOfReviews": 157,
+        "verifiedBuyerPercent": 78,
+        "communityTrustScore": 83
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "HU",
+      "supplierId": "sup-helio",
+      "brand": "Helio",
+      "transport": {
+        "mode": "road",
+        "distanceKm": 1298,
+        "transitDays": 4,
+        "costPerUnitEUR": 1.3,
+        "fuelSurchargePerUnitEUR": 0.16
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0,
+        "dutyPct": 0,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 500,
+        "expectedStorageDays": 5
+      },
+      "time": {
+        "productionLeadTimeDays": 2,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 0
+      },
+      "supply": {
+        "productionCapacityPerMonth": 3000,
+        "availableQuantity": 1000
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 94,
+        "historicalFulfillmentPercent": 95,
+        "defectRatePercent": 2,
+        "cancellationRatePercent": 3,
+        "numberOfHistoricalOrders": 141,
+        "reliabilityScore": 96
+      },
+      "trust": {
+        "supplierRating": 4.4,
+        "numberOfReviews": 226,
+        "verifiedBuyerPercent": 84,
+        "communityTrustScore": 87
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "SI",
+      "supplierId": "sup-vanta",
+      "brand": "Vanta",
+      "transport": {
+        "mode": "road",
+        "distanceKm": 952,
+        "transitDays": 3,
+        "costPerUnitEUR": 0.95,
+        "fuelSurchargePerUnitEUR": 0.11
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0,
+        "dutyPct": 0,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 500,
+        "expectedStorageDays": 5
+      },
+      "time": {
+        "productionLeadTimeDays": 3,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 0
+      },
+      "supply": {
+        "productionCapacityPerMonth": 3000,
+        "availableQuantity": 1600
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 92,
+        "historicalFulfillmentPercent": 94,
+        "defectRatePercent": 2.2,
+        "cancellationRatePercent": 3,
+        "numberOfHistoricalOrders": 88,
+        "reliabilityScore": 94
+      },
+      "trust": {
+        "supplierRating": 4.3,
+        "numberOfReviews": 141,
+        "verifiedBuyerPercent": 84,
+        "communityTrustScore": 85
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "HR",
+      "supplierId": "sup-aster",
+      "brand": "Aster",
+      "transport": {
+        "mode": "road",
+        "distanceKm": 1055,
+        "transitDays": 3,
+        "costPerUnitEUR": 1.06,
+        "fuelSurchargePerUnitEUR": 0.13
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0,
+        "dutyPct": 0,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 500,
+        "expectedStorageDays": 5
+      },
+      "time": {
+        "productionLeadTimeDays": 3,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 0
+      },
+      "supply": {
+        "productionCapacityPerMonth": 3000,
+        "availableQuantity": 1500
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 91,
+        "historicalFulfillmentPercent": 92,
+        "defectRatePercent": 2.8,
+        "cancellationRatePercent": 3.6,
+        "numberOfHistoricalOrders": 92,
+        "reliabilityScore": 93
+      },
+      "trust": {
+        "supplierRating": 4.2,
+        "numberOfReviews": 147,
+        "verifiedBuyerPercent": 76,
+        "communityTrustScore": 83
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "RO",
+      "supplierId": "sup-velora",
+      "brand": "Velora",
+      "transport": {
+        "mode": "road",
+        "distanceKm": 1734,
+        "transitDays": 5,
+        "costPerUnitEUR": 1.73,
+        "fuelSurchargePerUnitEUR": 0.21
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0,
+        "dutyPct": 0,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 500,
+        "expectedStorageDays": 5
+      },
+      "time": {
+        "productionLeadTimeDays": 3,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 0
+      },
+      "supply": {
+        "productionCapacityPerMonth": 4000,
+        "availableQuantity": 2500
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 90,
+        "historicalFulfillmentPercent": 92,
+        "defectRatePercent": 3,
+        "cancellationRatePercent": 4,
+        "numberOfHistoricalOrders": 109,
+        "reliabilityScore": 93
+      },
+      "trust": {
+        "supplierRating": 4.1,
+        "numberOfReviews": 174,
+        "verifiedBuyerPercent": 72,
+        "communityTrustScore": 81
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "BG",
+      "supplierId": "sup-lumen",
+      "brand": "Lumen",
+      "transport": {
+        "mode": "rail",
+        "distanceKm": 1844,
+        "transitDays": 4,
+        "costPerUnitEUR": 2.58,
+        "fuelSurchargePerUnitEUR": 0.31
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0,
+        "dutyPct": 0,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 520,
+        "expectedStorageDays": 6
+      },
+      "time": {
+        "productionLeadTimeDays": 3,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 0
+      },
+      "supply": {
+        "productionCapacityPerMonth": 3000,
+        "availableQuantity": 1600
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 89,
+        "historicalFulfillmentPercent": 90,
+        "defectRatePercent": 3.3,
+        "cancellationRatePercent": 4.4,
+        "numberOfHistoricalOrders": 84,
+        "reliabilityScore": 92
+      },
+      "trust": {
+        "supplierRating": 4,
+        "numberOfReviews": 134,
+        "verifiedBuyerPercent": 69,
+        "communityTrustScore": 79
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "RS",
+      "supplierId": "sup-novex",
+      "brand": "Novex",
+      "transport": {
+        "mode": "road",
+        "distanceKm": 1465,
+        "transitDays": 4,
+        "costPerUnitEUR": 1.47,
+        "fuelSurchargePerUnitEUR": 0.18
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0.25,
+        "dutyPct": 0.025,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 500,
+        "expectedStorageDays": 5
+      },
+      "time": {
+        "productionLeadTimeDays": 3,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 2
+      },
+      "supply": {
+        "productionCapacityPerMonth": 4000,
+        "availableQuantity": 700
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 90,
+        "historicalFulfillmentPercent": 92,
+        "defectRatePercent": 3,
+        "cancellationRatePercent": 4,
+        "numberOfHistoricalOrders": 96,
+        "reliabilityScore": 93
+      },
+      "trust": {
+        "supplierRating": 4.2,
+        "numberOfReviews": 154,
+        "verifiedBuyerPercent": 71,
+        "communityTrustScore": 83
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "BA",
+      "supplierId": "sup-arcus",
+      "brand": "Arcus",
+      "transport": {
+        "mode": "road",
+        "distanceKm": 1229,
+        "transitDays": 4,
+        "costPerUnitEUR": 1.23,
+        "fuelSurchargePerUnitEUR": 0.15
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0.25,
+        "dutyPct": 0.025,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 500,
+        "expectedStorageDays": 5
+      },
+      "time": {
+        "productionLeadTimeDays": 3,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 2
+      },
+      "supply": {
+        "productionCapacityPerMonth": 2500,
+        "availableQuantity": 1200
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 89,
+        "historicalFulfillmentPercent": 90,
+        "defectRatePercent": 3.2,
+        "cancellationRatePercent": 4.5,
+        "numberOfHistoricalOrders": 76,
+        "reliabilityScore": 92
+      },
+      "trust": {
+        "supplierRating": 4.1,
+        "numberOfReviews": 122,
+        "verifiedBuyerPercent": 70,
+        "communityTrustScore": 81
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "AL",
+      "supplierId": "sup-cobalt",
+      "brand": "Cobalt",
+      "transport": {
+        "mode": "road",
+        "distanceKm": 1541,
+        "transitDays": 4,
+        "costPerUnitEUR": 1.54,
+        "fuelSurchargePerUnitEUR": 0.18
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0.25,
+        "dutyPct": 0.025,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 500,
+        "expectedStorageDays": 5
+      },
+      "time": {
+        "productionLeadTimeDays": 3,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 2
+      },
+      "supply": {
+        "productionCapacityPerMonth": 2500,
+        "availableQuantity": 1100
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 88,
+        "historicalFulfillmentPercent": 89,
+        "defectRatePercent": 3.6,
+        "cancellationRatePercent": 4.8,
+        "numberOfHistoricalOrders": 63,
+        "reliabilityScore": 91
+      },
+      "trust": {
+        "supplierRating": 4,
+        "numberOfReviews": 101,
+        "verifiedBuyerPercent": 64,
+        "communityTrustScore": 79
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "MK",
+      "supplierId": "sup-solis",
+      "brand": "Solis",
+      "transport": {
+        "mode": "road",
+        "distanceKm": 1633,
+        "transitDays": 5,
+        "costPerUnitEUR": 1.63,
+        "fuelSurchargePerUnitEUR": 0.2
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0.25,
+        "dutyPct": 0.025,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 500,
+        "expectedStorageDays": 5
+      },
+      "time": {
+        "productionLeadTimeDays": 3,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 2
+      },
+      "supply": {
+        "productionCapacityPerMonth": 2500,
+        "availableQuantity": 1200
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 89,
+        "historicalFulfillmentPercent": 90,
+        "defectRatePercent": 3.4,
+        "cancellationRatePercent": 4.6,
+        "numberOfHistoricalOrders": 71,
+        "reliabilityScore": 92
+      },
+      "trust": {
+        "supplierRating": 4,
+        "numberOfReviews": 114,
+        "verifiedBuyerPercent": 67,
+        "communityTrustScore": 79
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "ME",
+      "supplierId": "sup-orbit",
+      "brand": "Würth",
+      "transport": {
+        "mode": "road",
+        "distanceKm": 1410,
+        "transitDays": 4,
+        "costPerUnitEUR": 1.41,
+        "fuelSurchargePerUnitEUR": 0.17
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0.25,
+        "dutyPct": 0.025,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 500,
+        "expectedStorageDays": 5
+      },
+      "time": {
+        "productionLeadTimeDays": 3,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 2
+      },
+      "supply": {
+        "productionCapacityPerMonth": 2500,
+        "availableQuantity": 1100
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 88,
+        "historicalFulfillmentPercent": 89,
+        "defectRatePercent": 3.5,
+        "cancellationRatePercent": 4.7,
+        "numberOfHistoricalOrders": 58,
+        "reliabilityScore": 91
+      },
+      "trust": {
+        "supplierRating": 3.9,
+        "numberOfReviews": 93,
+        "verifiedBuyerPercent": 62,
+        "communityTrustScore": 77
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "UA",
+      "supplierId": "sup-helio",
+      "brand": "Helio",
+      "transport": {
+        "mode": "rail",
+        "distanceKm": 2213,
+        "transitDays": 5,
+        "costPerUnitEUR": 3.1,
+        "fuelSurchargePerUnitEUR": 0.37
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0.25,
+        "dutyPct": 0.025,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 520,
+        "expectedStorageDays": 6
+      },
+      "time": {
+        "productionLeadTimeDays": 4,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 2
+      },
+      "supply": {
+        "productionCapacityPerMonth": 4000,
+        "availableQuantity": 2500
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 87,
+        "historicalFulfillmentPercent": 88,
+        "defectRatePercent": 3.8,
+        "cancellationRatePercent": 5,
+        "numberOfHistoricalOrders": 89,
+        "reliabilityScore": 90
+      },
+      "trust": {
+        "supplierRating": 4,
+        "numberOfReviews": 142,
+        "verifiedBuyerPercent": 66,
+        "communityTrustScore": 79
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "CN",
+      "supplierId": "sup-vanta",
+      "brand": "Vanta",
+      "transport": {
+        "mode": "sea",
+        "distanceKm": 8042,
+        "transitDays": 21,
+        "costPerUnitEUR": 1.6,
+        "fuelSurchargePerUnitEUR": 0.13
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0.25,
+        "dutyPct": 0.025,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 650,
+        "expectedStorageDays": 10
+      },
+      "time": {
+        "productionLeadTimeDays": 5,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 2
+      },
+      "supply": {
+        "productionCapacityPerMonth": 50000,
+        "availableQuantity": 50000
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 88,
+        "historicalFulfillmentPercent": 90,
+        "defectRatePercent": 3.5,
+        "cancellationRatePercent": 5,
+        "numberOfHistoricalOrders": 412,
+        "reliabilityScore": 91
+      },
+      "trust": {
+        "supplierRating": 4,
+        "numberOfReviews": 659,
+        "verifiedBuyerPercent": 61,
+        "communityTrustScore": 78
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "JP",
+      "supplierId": "sup-aster",
+      "brand": "Aster",
+      "transport": {
+        "mode": "air",
+        "distanceKm": 9810,
+        "transitDays": 2,
+        "costPerUnitEUR": 4.2,
+        "fuelSurchargePerUnitEUR": 0.63
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.2,
+        "handlingPerUnitEUR": 0.3,
+        "customsPerUnitEUR": 0.1,
+        "dutyPct": 0.025,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 380,
+        "expectedStorageDays": 2
+      },
+      "time": {
+        "productionLeadTimeDays": 5,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 2
+      },
+      "supply": {
+        "productionCapacityPerMonth": 8000,
+        "availableQuantity": 6000
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 99,
+        "historicalFulfillmentPercent": 99,
+        "defectRatePercent": 0.5,
+        "cancellationRatePercent": 0.8,
+        "numberOfHistoricalOrders": 287,
+        "reliabilityScore": 99
+      },
+      "trust": {
+        "supplierRating": 4.5,
+        "numberOfReviews": 459,
+        "verifiedBuyerPercent": 90,
+        "communityTrustScore": 90
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "MY",
+      "supplierId": "sup-velora",
+      "brand": "Velora",
+      "transport": {
+        "mode": "sea",
+        "distanceKm": 10421,
+        "transitDays": 23,
+        "costPerUnitEUR": 1.6,
+        "fuelSurchargePerUnitEUR": 0.13
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0.25,
+        "dutyPct": 0.025,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 650,
+        "expectedStorageDays": 10
+      },
+      "time": {
+        "productionLeadTimeDays": 5,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 2
+      },
+      "supply": {
+        "productionCapacityPerMonth": 20000,
+        "availableQuantity": 20000
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 87,
+        "historicalFulfillmentPercent": 89,
+        "defectRatePercent": 3.8,
+        "cancellationRatePercent": 5.2,
+        "numberOfHistoricalOrders": 190,
+        "reliabilityScore": 91
+      },
+      "trust": {
+        "supplierRating": 4,
+        "numberOfReviews": 304,
+        "verifiedBuyerPercent": 60,
+        "communityTrustScore": 78
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "SG",
+      "supplierId": "sup-lumen",
+      "brand": "Lumen",
+      "transport": {
+        "mode": "air",
+        "distanceKm": 10765,
+        "transitDays": 2,
+        "costPerUnitEUR": 4.2,
+        "fuelSurchargePerUnitEUR": 0.63
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.2,
+        "handlingPerUnitEUR": 0.3,
+        "customsPerUnitEUR": 0.1,
+        "dutyPct": 0.025,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 380,
+        "expectedStorageDays": 2
+      },
+      "time": {
+        "productionLeadTimeDays": 3,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 2
+      },
+      "supply": {
+        "productionCapacityPerMonth": 12000,
+        "availableQuantity": 9000
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 92,
+        "historicalFulfillmentPercent": 94,
+        "defectRatePercent": 2,
+        "cancellationRatePercent": 2.4,
+        "numberOfHistoricalOrders": 176,
+        "reliabilityScore": 95
+      },
+      "trust": {
+        "supplierRating": 4.4,
+        "numberOfReviews": 282,
+        "verifiedBuyerPercent": 87,
+        "communityTrustScore": 88
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "CL",
+      "supplierId": "sup-novex",
+      "brand": "Novex",
+      "transport": {
+        "mode": "sea",
+        "distanceKm": 11515,
+        "transitDays": 24,
+        "costPerUnitEUR": 1.6,
+        "fuelSurchargePerUnitEUR": 0.13
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0.25,
+        "dutyPct": 0.025,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 650,
+        "expectedStorageDays": 10
+      },
+      "time": {
+        "productionLeadTimeDays": 5,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 2
+      },
+      "supply": {
+        "productionCapacityPerMonth": 10000,
+        "availableQuantity": 10000
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 85,
+        "historicalFulfillmentPercent": 87,
+        "defectRatePercent": 4.2,
+        "cancellationRatePercent": 6,
+        "numberOfHistoricalOrders": 81,
+        "reliabilityScore": 89
+      },
+      "trust": {
+        "supplierRating": 3.9,
+        "numberOfReviews": 130,
+        "verifiedBuyerPercent": 58,
+        "communityTrustScore": 76
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "CO",
+      "supplierId": "sup-arcus",
+      "brand": "Arcus",
+      "transport": {
+        "mode": "sea",
+        "distanceKm": 8599,
+        "transitDays": 22,
+        "costPerUnitEUR": 1.6,
+        "fuelSurchargePerUnitEUR": 0.13
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0.25,
+        "dutyPct": 0.025,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 650,
+        "expectedStorageDays": 10
+      },
+      "time": {
+        "productionLeadTimeDays": 5,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 2
+      },
+      "supply": {
+        "productionCapacityPerMonth": 10000,
+        "availableQuantity": 10000
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 85,
+        "historicalFulfillmentPercent": 86,
+        "defectRatePercent": 4.4,
+        "cancellationRatePercent": 6.2,
+        "numberOfHistoricalOrders": 74,
+        "reliabilityScore": 89
+      },
+      "trust": {
+        "supplierRating": 3.8,
+        "numberOfReviews": 118,
+        "verifiedBuyerPercent": 55,
+        "communityTrustScore": 74
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    },
+    {
+      "iso": "XK",
+      "supplierId": "sup-cobalt",
+      "brand": "Cobalt",
+      "transport": {
+        "mode": "road",
+        "distanceKm": 1527,
+        "transitDays": 4,
+        "costPerUnitEUR": 1.53,
+        "fuelSurchargePerUnitEUR": 0.18
+      },
+      "logistics": {
+        "feePerUnitEUR": 0.08,
+        "handlingPerUnitEUR": 0.06,
+        "customsPerUnitEUR": 0.25,
+        "dutyPct": 0.025,
+        "insurancePct": 0.003,
+        "warehouseCostPerOrderEUR": 500,
+        "expectedStorageDays": 5
+      },
+      "time": {
+        "productionLeadTimeDays": 3,
+        "handlingTimeDays": 1,
+        "customsDelayDays": 2
+      },
+      "supply": {
+        "productionCapacityPerMonth": 2500,
+        "availableQuantity": 1200
+      },
+      "reliability": {
+        "onTimeDeliveryPercent": 89,
+        "historicalFulfillmentPercent": 90,
+        "defectRatePercent": 3.4,
+        "cancellationRatePercent": 4.5,
+        "numberOfHistoricalOrders": 55,
+        "reliabilityScore": 92
+      },
+      "trust": {
+        "supplierRating": 4,
+        "numberOfReviews": 88,
+        "verifiedBuyerPercent": 65,
+        "communityTrustScore": 79
+      },
+      "evidence": {
+        "source": "synthetic-sourcing-profiles",
+        "sourceType": "synthetic_fixture",
+        "isSynthetic": true,
+        "isAssumption": false,
+        "confidence": "medium",
+        "lastUpdated": "2026-09-18"
+      }
+    }
+  ],
+  "internalOps": {
+    "employeeCount": 42,
+    "warehouseEmployees": 18,
+    "logisticsEmployees": 9,
+    "procurementEmployees": 6,
+    "averageSalaryEUR": 2081,
+    "monthlySalaryCostEUR": 87400,
+    "employerContributionsEUR": 17680,
+    "overtimeCostEUR": 2400,
+    "temporaryLaborCostEUR": 3100,
+    "totalMonthlyLaborCostEUR": 110580,
+    "orderLabor": {
+      "receivingEUR": 320,
+      "inspectionEUR": 180,
+      "warehousingEUR": 240,
+      "administrationEUR": 95,
+      "estimatedInternalHandlingEUR": 835,
+      "laborHoursRequiredForOrder": 22
+    },
+    "status": "SYNTHETIC",
+    "note": "Internal operating cost model, separate from supplier landed cost. Never added to the supplier price."
+  }
+}
